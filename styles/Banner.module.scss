@@ -1,0 +1,28 @@
+@import './variables';
+.banner {
+    background-color: $background-banner;
+    color: $white;
+    padding: 100px 0;
+
+    &-container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 10px 20px;
+
+        .banner-content {
+            &__headtitle {
+                font-size: 28px;
+                font-weight: 700;
+                text-align: left;
+            }
+
+            &__desc {
+                font-size: 18px;
+                font-weight: 300;
+                text-align: left;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

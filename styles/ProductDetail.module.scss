@@ -1,0 +1,40 @@
+@import './variables';
+.product-page {
+    .product-detail {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 80px 20px;
+
+        &-img {
+            // border: 1px solid;
+            color: $white;
+            &-thumbnails {
+                &__item {
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.btn-add {
+    background-color: $border-btn;
+    border-radius: 2px;
+    border: none;
+    color: $white;
+    font-weight: 500;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.property {
+    color: $grey;
+    font-weight: 600;
+}
+
+.similar {
+    color: $border-btn !important;
+    font-weight: 500;
+}

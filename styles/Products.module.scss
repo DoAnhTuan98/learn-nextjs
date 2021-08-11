@@ -1,0 +1,15 @@
+@import './variables';
+.products {
+    &-container {
+        .products-list {
+            .product-item {
+                margin-bottom: 20px;
+
+                &__price {
+                    color: $border-btn;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

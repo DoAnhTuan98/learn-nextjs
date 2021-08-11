@@ -1,0 +1,76 @@
+@import '_variables.scss';
+
+.header {
+    &-primary {
+        margin: auto;
+        max-width: 1140px;
+
+        &-wrap {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 30px;
+            
+            &__logo {
+                flex-grow: 1;
+            }
+
+            &__search {
+                flex-grow: 1;
+
+                .search-bar {
+                    border: solid 1px $border1;
+                    border-radius: 2px;
+                    display: flex;
+                    margin: 0 20px;
+
+                    &__input {
+                        background-color: $white;
+                        border: none;
+                        color: $input;
+                        padding: 10px 20px;
+                        flex-grow: 1;
+                    }
+
+                    &__btn {
+                        border: none;
+                        color: $grey;
+                        padding: 10px 15px;
+                    }
+                }
+            }
+
+            &-cart {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    &-secondary {
+        border-top: 1px solid $grey1;
+        border-bottom: 1px solid $grey1;
+
+        .categories-navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1140px;
+            margin: auto;
+            padding: 20px 30px;
+
+            .categories {
+                .categories__list {
+                    display: flex;
+                    padding: 0;
+                    margin: 10px 0;
+
+                    li {
+                        list-style: none;
+                        margin: 0 10px;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import './variables';
+.footer {
+    background-color: $background-footer;
+    color: $grey;
+    padding: 80px 20px;
+    margin: 40px 0px 0px;
+
+    span {
+        color: $input;
+    }
+}
